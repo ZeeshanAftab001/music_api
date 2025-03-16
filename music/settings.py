@@ -29,8 +29,9 @@ SECRET_KEY = 'django-insecure-o-!c-yp&bje)j9x+gqf!5rl**vultr4+^3xq(w5=9+5wxvohvv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS=["*"]
+ALLOWED_HOSTS = ["musicapi-production-3188.up.railway.app"]
+
+CSRF_TRUSTED_ORIGINS = ["https://musicapi-production-3188.up.railway.app"]
 
 
 # Application definition
